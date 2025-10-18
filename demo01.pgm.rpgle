@@ -3,7 +3,7 @@ dcl-opt dftactgrp(*no) debug(*constants);
 
 dcl-s l_name char(50);
 dcl-c AM 'Good Morning';
-dcl-c PM 'Good Evening;'	value;
+dcl-c PM 'Good Evening;
 
 l_name = 'Hello World';
 
@@ -15,5 +15,5 @@ select;
 endsl;
 
 dsply l_name + ' world';
-    
+
 return;
